@@ -1,15 +1,15 @@
-name: Build Kernel Next-SUSFS For Realme GT5 Pro
+name: Build Kernel Next-SUSFS For Realme GT Neo 6 SE
 on:
   workflow_dispatch:
     inputs:
       CPU:
         description: "处理器分支"
         required: true
-        default: 'sm8650'
+        default: 'sm7675'
       MANIFEST:
         description: "配置文件"
         required: true
-        default: 'gt5pro'
+        default: 'gtneo6se'
       CPUD:
         description: "处理器代号"
         required: true
