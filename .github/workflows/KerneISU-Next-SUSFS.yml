@@ -1,4 +1,4 @@
-name: Build Kernel Next-SUSFS For Realme GT Neo 6 SE
+name: Build Kernel Next-SUSFS For Realme GT Neo6 SE
 on:
   workflow_dispatch:
     inputs:
