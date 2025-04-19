@@ -5,11 +5,14 @@ on:
       CPU:
         description: "处理器分支"
         required: true
-        default: 'sm7675'
+        type: choice
+        options:
+          - sm7675_v
+          - sm7675_u
       MANIFEST:
         description: "配置文件"
         required: true
-        default: 'gtneo6se'
+        default: 'GTneo6SE'
       CPUD:
         description: "处理器代号"
         required: true
